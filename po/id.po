@@ -43,7 +43,7 @@ msgstr "Peralatan transkripsi"
 
 #: ../src/main.c:42
 msgid "Show the application's version"
-msgstr "Tampilkan versi aplikasinya"
+msgstr "Tampilkan versi aplikasi"
 
 #: ../src/main.c:58
 msgid "Fatal error"
@@ -56,9 +56,9 @@ msgid ""
 "GStreamer and make sure you have the \"Good Plugins\" installed.\n"
 "Parlatype will quit now, it received this error message: %s"
 msgstr ""
-"Parlatype butuh GStreamer 1.x untuk berjalan. Silakan periksa installasi "
+"Parlatype membutuhkan GStreamer 1.x untuk berjalan. Silakan periksa installasi "
 "GStreamer Anda dan pastikan \"Good Plugins\" telah terinstall.\n"
-"Parlatype akan keluar sekarang, menerima pesan kesalahan ini: %s"
+"Parlatype akan tertutup sekarang, menerima pesan kesalahan ini: %s"
 
 #. Translators: This is part of the output if you type `parlatype --help`
 #. in terminal. The square brackets indicate that a file (filename) is
@@ -66,11 +66,11 @@ msgstr ""
 #. uppercase.
 #: ../src/main.c:84
 msgid "[FILE]"
-msgstr "[FILE]"
+msgstr "[BERKAS]"
 
 #: ../src/main.c:87
 msgid "Minimal audio player for manual speech transcription"
-msgstr "Pemutar audio minimal untuk transkrip pembicaraan manual"
+msgstr "Pemutar suara minimal untuk transkrip pembicaraan manual"
 
 #: ../src/pt-app.c:57 ../src/resources/menus.ui.h:2
 msgid "Recent Files"
@@ -82,7 +82,7 @@ msgstr "_Batal"
 
 #: ../src/pt-app.c:60 ../src/pt-app.c:117
 msgid "_Open"
-msgstr "B_uka"
+msgstr "_Buka"
 
 #: ../src/pt-app.c:72 ../src/pt-app.c:128
 msgid "All files"
@@ -90,11 +90,11 @@ msgstr "Semua berkas"
 
 #: ../src/pt-app.c:113
 msgid "Open Audio File"
-msgstr "Buka Berkas Audio"
+msgstr "Buka Berkas Suara"
 
 #: ../src/pt-app.c:127
 msgid "Audio files"
-msgstr "Berkas audio"
+msgstr "Berkas suara"
 
 #. Translators: %s is a detailed error message
 #: ../src/pt-app.c:176
@@ -116,7 +116,7 @@ msgstr "Sebuah peralatan transkrip dasar"
 
 #: ../src/pt-app.c:216
 msgid "translator-credits"
-msgstr ""
+msgstr "penerjemah kredit"
 "Launchpad Contributions:\n"
 "  Ari Setyo Wibowo https://launchpad.net/~ari-el-uno"
 
@@ -157,7 +157,7 @@ msgstr "_Tutup"
 #, c-format
 msgid "Jump back 1 second"
 msgid_plural "Jump back %d seconds"
-msgstr[0] "Lompat mundur %d detik"
+msgstr[0] "Lompat kembali %d detik"
 
 #: ../src/pt-window.c:232
 #, c-format
@@ -167,13 +167,13 @@ msgstr[0] "Lompat maju %d detik"
 
 #: ../src/pt-window.c:247
 msgid "Pause"
-msgstr "Pause"
+msgstr "Berhenti sebentar"
 
 #: ../src/pt-window.c:250
 #, c-format
 msgid "Pause and rewind 1 second"
 msgid_plural "Pause and rewind %d seconds"
-msgstr[0] "Pause dan putar ulang %d detik"
+msgstr[0] "Berhenti sebentar dan putar ulang %d detik"
 
 #: ../src/pt-window.c:256
 msgid "Start playing"
@@ -181,7 +181,7 @@ msgstr "Mulai memutar"
 
 #: ../src/pt-window.c:727
 msgid "View follows cursor"
-msgstr "Lihat ikuti kursor"
+msgstr "Tampilan mengikuti kursor"
 
 #: ../src/pt-window.c:729
 msgid "Click to follow cursor"
@@ -225,7 +225,7 @@ msgstr "Masukkan informasi waktu"
 
 #: ../src/resources/menus.ui.h:10
 msgid "_File"
-msgstr "B_erkas"
+msgstr "_Berkas"
 
 #: ../src/resources/menus.ui.h:11
 msgid "_Edit"
@@ -233,7 +233,7 @@ msgstr "_Sunting"
 
 #: ../src/resources/menus.ui.h:12
 msgid "_Help"
-msgstr "Bant_uan"
+msgstr "_Bantuan"
 
 #: ../src/resources/preferences.ui.h:1
 msgid "Parlatype Preferences"
@@ -241,11 +241,11 @@ msgstr "Preferensi Parlatype"
 
 #: ../src/resources/preferences.ui.h:2
 msgid "_Pixels per second:"
-msgstr "_Pixels per detik:"
+msgstr "_Piksel per detik:"
 
 #: ../src/resources/preferences.ui.h:3
 msgid "Show _time scale"
-msgstr "Tampilkan _skala waktu"
+msgstr "Tampilkan skala _waktu"
 
 #. Resolution of the waveform image
 #: ../src/resources/preferences.ui.h:5
@@ -259,7 +259,7 @@ msgstr "Tampilan"
 
 #: ../src/resources/preferences.ui.h:8
 msgid "_Moving cursor"
-msgstr "_Kursor bergerak"
+msgstr "Kursor _bergerak"
 
 #: ../src/resources/preferences.ui.h:9
 msgid "_Fixed cursor"
@@ -267,19 +267,19 @@ msgstr "Kursor _Tetap"
 
 #: ../src/resources/preferences.ui.h:10
 msgid "Waveform"
-msgstr "Gelombang"
+msgstr "Bentuk gelombang"
 
 #: ../src/resources/preferences.ui.h:11
 msgid "Jump back on _pause:"
-msgstr "Lompat mundur ke _pause:"
+msgstr "Lompat kembali ke _berhenti sebentar:"
 
 #: ../src/resources/preferences.ui.h:12
 msgid "Jump _back:"
-msgstr "Lompat _mundur:"
+msgstr "Lompat _kembali:"
 
 #: ../src/resources/preferences.ui.h:13
 msgid "Jump _forward:"
-msgstr "Jump ma_ju:"
+msgstr "Lompat _maju:"
 
 #: ../src/resources/preferences.ui.h:14
 msgid "Controls"
@@ -303,4 +303,4 @@ msgstr "Kecepatan:"
 
 #: ../src/resources/window-headerbar.ui.h:2
 msgid "Open a file"
-msgstr "Buka berkas"
+msgstr "Buka sebuah berkas"
